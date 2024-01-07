@@ -1,0 +1,196 @@
+html, body{
+    height: 100%;
+    width: 100%;
+
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.transition-smooth{
+    transition: all 0.3s ease 0s;
+
+}
+
+.disappear{
+    display: none;
+    transition: all 0.3s ease 0s;
+}
+
+.fullsize-img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.display-flex{
+    display: flex;
+}
+
+.pro-font{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.bg-tunnel-image{
+    height: 80%;
+
+    background: url('tunnel-background-1-jpg.jpg');
+    background-size:cover;
+
+}
+
+
+.opening-text-div{
+    padding: 2%;
+    height: auto;
+    background: rgba(129, 69, 151, 0.5);
+}
+
+.opening-text-title{
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-left: 3%;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 10px 5px 0px #000000;
+}
+
+.opening-text-paragraph{
+    padding: 3%;
+    
+    padding-top: 0%;
+    margin-top: 2rem;
+    font-size: 16px;
+    line-height: 30px;
+}
+.opening-button-container{
+    padding-left: 3%;
+}
+.opening-buttons{
+    border-radius: 0%;
+     font-family: Raleway;
+     font-weight: 500;
+     font-size: 14px;
+      letter-spacing: 0.1em;
+       font-variant: small-caps;
+        padding: 2%; display: inline-block;
+}
+
+/* home spread 2 */
+.home-subtitle{
+    font-family: Raleway;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+/* homw spread3 */
+
+.home-spread-3{
+    background: #474747;
+    color: #fff;
+}
+
+.gifs{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.gif-wrapper{
+    text-align: center;
+}
+
+.car-gif, .wing-gif{
+    max-width: 100%;
+    max-height: 100%;
+
+    border: solid 2px #000;
+}
+
+.gif-caption{
+    margin-top: 10px;
+}
+
+/* COMPONENTS PAGE */
+
+.image-components{
+    font-family: 'Raleway';
+    margin-top: 10px;
+    text-align: center;
+}
+
+.components-spread-1{
+    background: #212830;
+
+}
+
+.components-spread-1-textdiv{
+    color: #fff;
+  
+}
+
+.components-intro-band{
+    padding: 2rem;
+    background: #EBE3B7;
+}
+.components-intro-band > h1{
+    text-shadow: 2px 2px 0px #CDAC00;
+}
+
+.components-spread-2{
+    padding: 2% 0;
+}
+
+.components-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.components-para{
+    font-weight: 400;
+font-size: 14px;
+}
+
+
+/* Build Page */
+
+.build-intro{
+    margin: auto;
+}
+
+
+.frame-build-steps-text{
+   
+    background: #f9f6fd;
+    padding-left: 5%;
+}
+
+.bor-bot{
+    border-bottom: 0.5px solid rgb(131, 131, 131);
+}
+
+.build-section-title{
+    margin: 1rem 0;
+}
+.build-section-text{
+    padding: 2%;
+}
+
+.build-section{
+    margin: 3% auto;
+    width: 100%;
+    padding: 0 7%;
+    background: #fff3e6;
+}
+
+/* special components */
+
+.container-padding{
+    padding: 4%;
+}
